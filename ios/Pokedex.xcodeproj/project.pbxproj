@@ -40,6 +40,7 @@
 		181005D197B844B7BC607015 /* libPods-Pokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26376086A613A88F4CB9425A /* Pods-Pokedex-PokedexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-PokedexTests.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex-PokedexTests/Pods-Pokedex-PokedexTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pokedex/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0575C872661EF8C00B3ABC0 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		C751831EA0DDBA7794F92C36 /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.release.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		D3CED5ACA529994CE4E4E234 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF37052067E4D1558E3263D /* libPods-Pokedex-PokedexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pokedex-PokedexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +105,6 @@
 				26376086A613A88F4CB9425A /* Pods-Pokedex-PokedexTests.debug.xcconfig */,
 				123A05F8CB88A444C3319ACE /* Pods-Pokedex-PokedexTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +128,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C0575C842661EF7A00B3ABC0 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Pokedex */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PokedexTests */,
@@ -147,6 +148,14 @@
 				00E356EE1AD99517003FC87E /* PokedexTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C0575C842661EF7A00B3ABC0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C0575C872661EF8C00B3ABC0 /* Ionicons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
